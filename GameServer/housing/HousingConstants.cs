@@ -80,18 +80,18 @@ namespace DOL.GS.Housing
 		/// <remarks>First dimensions is the model of the house.  Second dimension is a 4 value wide array, consisting of
 		/// multiplier, range, Z addition, and realm, in that order.  Second dimension index is one-based, not zero-based.</remarks>
 		public static readonly float[][] ConsignmentPositioning = [[0, 0, 0, 0],
-		                                                           [0.48f, 610, 20, 1],    // Model 1
-		                                                           [0.50f, 595, 18, 1],    // Model 2
-		                                                           [-0.53f, 600, 104, 1],  // Model 3
-		                                                           [0.54f, 612, 104, 1],   // Model 4
-		                                                           [-0.42f, 722, 47, 2],   // Model 5
-		                                                           [-0.52f, 612, 35, 2],   // Model 6
-		                                                           [0.49f, 688, 76, 2],    // Model 7
-		                                                           [-0.50f, 657, 47, 2],   // Model 8
-		                                                           [0.47f, 683, 70, 3],    // Model 9
-		                                                           [0.47f, 695, 31, 3],    // Model 10
-		                                                           [-0.61f, 593, 118, 3],  // Model 11
-		                                                           [-0.57f, 628, 118, 3]]; // Model 12
+		                                                           [0.542939f, 612.595f, 23, 1],    // Model 1
+		                                                           [0.543229f, 610.366f, 21, 1],    // Model 2
+		                                                           [-0.530758f, 603.532f, 87, 1],   // Model 3
+		                                                           [0.529434f, 608.857f, 103, 1],   // Model 4
+		                                                           [-0.459025f, 725.612f, 51, 2],   // Model 5
+		                                                           [-0.513954f, 609.205f, 39, 2],   // Model 6
+		                                                           [0.476363f, 685.857f, 79, 2],    // Model 7
+		                                                           [-0.481948f, 672.051f, 81, 2],   // Model 8
+		                                                           [0.451080f, 693.907f, 42, 3],    // Model 9
+		                                                           [0.449782f, 693.471f, 35, 3],    // Model 10
+		                                                           [-0.625144f, 593.800f, 74, 3],   // Model 11
+		                                                           [-0.564866f, 617.408f, 76, 3]];  // Model 12
 
 		/// <summary>
 		/// Housing hookpoint coordinates offset relative to a house.
